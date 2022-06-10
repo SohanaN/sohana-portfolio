@@ -161,8 +161,6 @@ body {
     /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange;
     /* The typwriter cursor */
-    white-space: nowrap;
-    /* Keeps the content on a single line */
     margin: 0 auto;
     /* Gives that scrolling effect as the typing happens */
     letter-spacing: .15em;
@@ -242,7 +240,7 @@ body {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
-    width: 150px;
+    margin: 50px;
 }
 
 .sn-img:hover {
@@ -259,7 +257,7 @@ body {
     border-radius: 5px;
     background-color: #028794a6;
     padding: 20px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     font-weight: bold;
 }
@@ -332,7 +330,7 @@ textarea {
 /* footer  */
 
 footer {
-    background: #181111;
+    background: #010e11;
     color: #fff;
     text-align: center;
     padding: 20px;

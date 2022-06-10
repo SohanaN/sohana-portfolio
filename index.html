@@ -76,11 +76,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-5 col-lg-5">
-                    <div class="abt_img me-auto">
-                        <img src="images/abt_img.jpg" class=" sn-img w-50" alt="">
-                    </div>
+                    <img src="images/abt_img.jpg" class=" sn-img w-75" alt="">
                 </div>
-                <div class="col-sm-12 col-md-7 col-lg-7 mr-auto">
+                <div class="col-sm-12 col-md-7 col-lg-7">
                     <div class="abt_txt">
                         <div class="header-title">
                             <h1>About Me </h1>
@@ -193,7 +191,7 @@
                 </div>
             </div>
             <div class="row filtr_img">
-                <div class="col-md-3 p-0 mix web">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix web">
                     <div class="work_main">
                         <img src="images/projects/work1.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -206,7 +204,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-0 mix web">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix web">
                     <div class="work_main">
                         <img src="images/projects/work2.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -219,7 +217,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-0 mix web">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix web">
                     <div class="work_main">
                         <img src="images/projects/work3.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -232,21 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-0 mix graphics">
-                    <div class="work_main">
-                        <img src="images/projects/work1.png" class="w-75" alt="">
-
-                        <div class="img_overlay d-flex justify-content-center align-items-center text-center">
-                            <div>
-                                <h4>SN Car Parts Co.</h4>
-                                <a href="allDetails/details.html">
-                                    View Details <i class="fa fa-eye"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 p-0 mix graphics">
+                <div class="col-sm-12 col-md-3 col-lg-3 mix graphics">
                     <div class="work_main">
                         <img src="images/projects/work4.png" class="w-75" alt="">
 
@@ -260,7 +244,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-0 mix cad">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix graphics">
                     <div class="work_main">
                         <img src="images/projects/work5.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -273,8 +257,7 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="col-md-3 p-0 mix cad">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix cad">
                     <div class="work_main">
                         <img src="images/projects/work6.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -287,7 +270,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 p-0 mix cad">
+                <div class="col-sm-12 col-md-3 col-lg-3 p-0 mix cad">
                     <div class="work_main">
                         <img src="images/projects/work7.png" class="w-75" alt="">
                         <div class="img_overlay d-flex justify-content-center align-items-center text-center">
@@ -304,6 +287,7 @@
         </div>
     </section>
     <!-- end of work part -->
+
     <section id="full_blog" class="py-5">
         <div class="container">
             <div class="row">
@@ -320,7 +304,7 @@
                 <div class="col-md-4 col-lg-4 ">
                     <div class="single_blog">
                         <img src="images/blog/blog-1.jpg" class="w-100" alt="">
-                        <div class="blog_dtls">
+                        <div class="my-5">
                             <h5>Why are you using `firebase`? What other options do you have to implement
                                 authentication?</h5>
                             <p>
@@ -337,7 +321,7 @@
                 <div class="col-md-4 col-lg-4 ">
                     <div class="single_blog">
                         <img src="images/blog/blog-2.jpg" class="w-100" alt="">
-                        <div class="blog_dtls">
+                        <div class="my-5">
                             <h5>What is the purpose of `jwt` and how does it work</h5>
                             <p>
                                 JWT, or JSON Web Token, is an open standard used to share security information between
@@ -356,7 +340,7 @@
                 <div class="col-md-4 col-lg-4">
                     <div class="single_blog">
                         <img src="images/blog/blog-3.jpg" class="w-100" alt="">
-                        <div class="blog_dtls">
+                        <div class="my-5">
                             <h5>What are the different ways to manage a state in a React application?</h5>
                             <p>
                                 The purpose of building the application with components is to have a modular
@@ -377,26 +361,32 @@
     <!-- end of blog  -->
 
     <section id="contact" class="my-5">
-        <h1>Get In Touch</h1>
-        <div class="contact-from">
-            <form action="https://formspree.io/f/xrgjdlvv" method="POST" id="my-form">
-                <div class="form-group">
-                    <label for="Name">Name</label>
-                    <input type="text" id="Name" name="Name">
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email">
-                </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                    <h1>Get In Touch</h1>
+                    <div class="contact-from">
+                        <form action="https://formspree.io/f/xrgjdlvv" method="POST" id="my-form">
+                            <div class="form-group">
+                                <label for="Name">Name</label>
+                                <input type="text" id="Name" name="Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
 
-                <div class="form-group">
-                    <label for="massage">Massage</label>
-                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                            <div class="form-group">
+                                <label for="massage">Massage</label>
+                                <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                    <div id="status"></div>
                 </div>
-                <button type="submit">Submit</button>
-            </form>
+            </div>
         </div>
-        <div id="status"></div>
     </section>
     <!-- end of contact  -->
 
