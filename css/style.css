@@ -101,14 +101,13 @@ body {
 .img_overlay {
     position: absolute;
     height: 100%;
-    width: 75%;
+    width: 100%;
     background-color: rgba(2, 135, 148, 0.65);
     color: #fff;
     left: 0;
     top: 0;
     transform: scale(0);
     transition: all 0.5s linear;
-
 }
 
 .img_overlay h4 {
@@ -255,11 +254,17 @@ body {
 
 .contact-from {
     border-radius: 5px;
-    background-color: #028794a6;
+    background: rgb(1, 55, 71);
+    background: linear-gradient(90deg, rgb(1, 58, 110) 0%, rgb(1, 76, 95) 35%, rgb(2, 146, 175) 100%);
     padding: 20px;
     width: 80%;
     margin: 0 auto;
     font-weight: bold;
+}
+
+.contact-from:hover {
+    background: rgb(1, 55, 71);
+    background: linear-gradient(90deg, rgb(2, 157, 168) 0%, rgb(60, 112, 155) 50%, rgb(2, 175, 132) 100%);
 }
 
 input,
@@ -276,11 +281,12 @@ textarea {
 
 #contact button {
     color: #fff;
-    background: #034b52a6;
+    background: #85cfd6a6;
     border: none;
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
+    border-radius: 7px 25px;
 }
 
 #contact button:hover {
