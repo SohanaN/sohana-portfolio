@@ -47,7 +47,6 @@
                 </ul>
             </div>
         </div>
-
     </nav>
     <!-- end of header section  -->
 
@@ -380,18 +379,24 @@
     <section id="contact" class="my-5">
         <h1>Get In Touch</h1>
         <div class="contact-from">
-            <form action="">
-                <label for="name">Your Name</label>
-                <input type="text">
-                <label for="fname">Email</label>
-                <input type="email" name="" id="">
-                <label for="fname">Password</label>
-                <input type="password" name="" id="">
-                <label for="message">Message</label>
-                <textarea id="message" name="subject" placeholder="Write something.." style="height:100px"></textarea>
-                <button type="button">Submit</button>
+            <form action="https://formspree.io/f/xrgjdlvv" method="POST" id="my-form">
+                <div class="form-group">
+                    <label for="Name">Name</label>
+                    <input type="text" id="Name" name="Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="massage">Massage</label>
+                    <textarea name="massage" id="massage" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit">Submit</button>
             </form>
         </div>
+        <div id="status"></div>
     </section>
     <!-- end of contact  -->
 
@@ -406,7 +411,7 @@
         <small>&copy; <span class="title-color">2022 Sohana's Portfolio</span> Design by Sohana Nazneen<small>
     </footer>
     <!-- end of footer  -->
-
+    <script type="text/javascript" src="js/contact-form-script.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
